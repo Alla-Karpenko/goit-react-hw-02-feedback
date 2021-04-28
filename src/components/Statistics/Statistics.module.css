@@ -1,0 +1,15 @@
+.feedbackStatistics {
+    display: flex;
+    padding-left: 50px;
+   color: #00FFFF;
+}
+
+.feedbackPositive { 
+    color: rgb(32, 233, 115);
+}
+.Notification {
+    color: rgb(22, 156, 209);
+}
+.statistics {
+    color: rgb(22, 156, 209);
+}

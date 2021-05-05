@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Feedback.module.css';
+
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
    <div>
         {options.map(( option, id ) => {

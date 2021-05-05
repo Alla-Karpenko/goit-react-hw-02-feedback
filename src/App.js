@@ -22,9 +22,10 @@ import './styles.module.css';
         }
     
         countTotalFeedback = () => {
-           const  { good, neutral, bad } = this.state;
-           const sumFeedback = good + neutral + bad;
-           return sumFeedback;
+            return Object.values(this.state).reduce((acc, stat) => {
+                acc += stat;
+                return acc;
+            }, 0);
         };
     
         countPositiveFeedbackPercentage = () => {
